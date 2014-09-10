@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[\begin{algorithm}
+    \caption{${1:caption}}
+    \label{alg:${2:label}}
+    \begin{algorithmic}
+       $0
+    \end{algorithmic}
+\end{algorithm}]]></content>
+    <tabTrigger>algorithm</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Algorithm</description>
+</snippet>

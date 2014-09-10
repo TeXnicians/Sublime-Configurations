@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+    \begin{figure}[!ht]
+\begin{center}
+\parbox[b]{\textwidth}{\footnotesize\centering
+\includegraphics{./figures/${1:filename}.pdf}
+\caption{${2:caption}}
+\label{fig:$1}
+}
+\end{center}
+\end{figure}
+    	]]>
+    </content>
+    <tabTrigger>figure</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Figure</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[\begin{table}[!ht]
+\begin{center}
+\parbox[b]{\textwidth}{\small
+\caption{${1:caption}}
+\label{tab:${2:label}}
+    \begin{tabular*}{\textwidth}
+    {@{\extracolsep{\fill}}${3:alignment}}
+    \toprule
+    $0
+    \bottomrule
+    \end{tabular*}
+}
+\end{center}
+\end{table}]]></content>
+    <tabTrigger>table</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Table</description>
+</snippet>
