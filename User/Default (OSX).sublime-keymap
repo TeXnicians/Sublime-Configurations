@@ -1,5 +1,5 @@
 [
-	{"keys": ["f1"], "command": "compile_with_xelatex"},
+	// {"keys": ["f1"], "command": "compile_with_view"},
 
 	//run current python
 	{ "keys": ["ctrl+super+r"], "command": "repl_open",
