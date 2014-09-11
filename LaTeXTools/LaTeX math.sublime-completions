@@ -111,12 +111,13 @@
                 { "trigger": "cal", "contents": "\\mathcal"},
                 { "trigger": "mathcal", "contents": "mathcal{$1}$0"},
 
-                { "trigger": "lr\\(", "contents": "\\left( $1 \\right) $0"},
-                { "trigger": "lb", "contents": "\\left[ $1 \\right] $0"},
-                { "trigger": "la", "contents": "\\left| $1 \\right| $0"},
+                { "trigger": "lrp", "contents": "\\left( $1 \\right) $0"},
+                { "trigger": "lrb", "contents": "\\left[ $1 \\right] $0"},
+                { "trigger": "lra", "contents": "\\left| $1 \\right| $0"},
                 { "trigger": "lbr", "contents": "\\left\\\\{ $0 \\right\\\\}"},
                 { "trigger": "fra", "contents": "\\frac"},
                 { "trigger": "fr", "contents": "\\frac{$1}{$2}$0"},
+                { "trigger": "dfr", "contents": "\\dfrac{$1}{$2}$0"},
                 { "trigger": "stack", "contents": "\\stackrel{$1}{$2}$0"},
 
                 { "trigger": "sp", "contents": "\\begin{split}\n$0\n\\end{split}\n"}

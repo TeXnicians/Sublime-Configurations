@@ -26,8 +26,9 @@
                 { "trigger": "baan", "contents": "\\begin{alignat}\n$0\n\\end{alignat}\n"},
                 { "trigger": "bfl", "contents": "\\begin{flalign*}\n$0\n\\end{flalign*}\n"},
                 { "trigger": "bfln", "contents": "\\begin{flalign}\n$0\n\\end{flalign}\n"},
-                { "trigger": "bml", "contents": "\\begin{multiline*}\n$0\n\\end{multiline*}\n"},
-                { "trigger": "bmln", "contents": "\\begin{multiline}\n$0\n\\end{multiline}\n"},
+                { "trigger": "ml", "contents": "\\begin{multiline*}\n$0\n\\end{multiline*}\n"},
+                { "trigger": "mtl", "contents": "\\begin{multiline}\n$0\n\\end{multiline}\n"},
+                { "trigger": "numsol", "contents": "\\begin{numsol}\n\\exercise{$1}\n$0\n\\end{numsol}\n"},
 
                 { "trigger": "bit", "contents": "\\begin{itemize}\n\t\\item $1 \n\\end{itemize}\n"},
                 { "trigger": "enu", "contents": "\\begin{enumerate}[$1]\n\t\\item $2 \n\\end{enumerate}\n"},
