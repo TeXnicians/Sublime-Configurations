@@ -3,7 +3,7 @@
 	"auto_complete_selector": "source, text",
 	"auto_match_enabled": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/TomorrowNight-Themes/Tomorrow-Night-Eighties.tmTheme",
+	"color_scheme": "Packages/TomorrowNight-Themes/Tomorrow-Night.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -44,6 +44,7 @@
 		72,
 		79
 	],
+	"spell_check": true,
 	"scroll_past_end": false,
 	"show_full_path": true,
 	"show_minimap": false,
