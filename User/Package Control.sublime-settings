@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"DictionaryAutoComplete",
+		"Jedi - Python autocompletion",
+		"LaTeX-cwl",
+		"LaTeXTools",
+		"SublimeREPL"
+	]
+}
