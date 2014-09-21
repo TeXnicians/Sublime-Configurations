@@ -1,9 +1,12 @@
 {
 	"auto_complete": true,
-	"auto_complete_selector": "source, text",
+	// "auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
+	"auto_complete_selector": "source - text",
 	"auto_match_enabled": true,
+	// "auto_complete_selector": "-",
 	"caret_style": "solid",
 	"color_scheme": "Packages/TomorrowNight-Themes/Tomorrow-Night.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -14,8 +17,6 @@
 	],
 	"find_selected_text": true,
 	"fold_buttons": false,
-    "trim_trailing_white_space_on_save": true,
-    "ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -39,19 +40,20 @@
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"open_files_in_new_window": false,
+	"python_interpreter_path": "/usr/bin/python",
 	"rulers":
 	[
 		72,
 		79
 	],
-	"spell_check": true,
 	"scroll_past_end": false,
 	"show_full_path": true,
 	"show_minimap": false,
+	"spell_check": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
 	"word_wrap": true,
-	"wrap_width": 120,
+	"wrap_width": 120
 }
