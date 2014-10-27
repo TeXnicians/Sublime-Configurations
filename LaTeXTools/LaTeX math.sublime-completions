@@ -10,7 +10,7 @@
                 { "trigger": "delta", "contents": "partial" },
                 //{ "trigger": "partial", "contents": "delta" },  # can't have trigger as it conflicts with p -> \pi
 		{ "trigger": "e", "contents": "\\epsilon" },
-		{ "trigger": "epsilon", "contents": "varepsilon" },
+		{ "trigger": "epsilon", "contents": "varepsilon" }, 
                 /* toggle the two! */
 		{ "trigger": "varepsilon", "contents": "epsilon" },
 		{ "trigger": "z", "contents": "\\zeta"},
@@ -28,9 +28,9 @@
                 { "trigger": "r", "contents": "\\rho" },
                 { "trigger": "s", "contents": "\\sigma" },
                 { "trigger": "t", "contents": "\\tau" },
-                { "trigger": "u", "contents": "\\upsilon" },
+                { "trigger": "u", "contents": "\\upsilon" },        
                 { "trigger": "f", "contents": "\\phi" },
-                { "trigger": "\\phi", "contents": "\\varphi" },
+                { "trigger": "\\phi", "contents": "\\varphi" }, 
                 { "trigger": "\\varphi", "contents": "\\phi" },
                 { "trigger": "c", "contents": "\\chi" },
                 { "trigger": "y", "contents": "\\psi" },
@@ -74,8 +74,8 @@
 		{ "trigger": "succeq", "contents": "succcurlyeq"},
 		{ "trigger": "succcurlyeq", "contents": "sum"},
 
-                { "trigger": "qq", "contents": "\\quad"},
-                { "trigger": "qqq", "contents": "\\qquad"},
+                { "trigger": "qd", "contents": "\\quad"},
+                { "trigger": "qqd", "contents": "\\qquad"},
 
 		{ "trigger": "pr", "contents": "\\prod"},
 		{ "trigger": "prod", "contents": "prec"},
@@ -99,7 +99,7 @@
 		{ "trigger": "Lr", "contents": "\\Leftrightarrow"},
 		{ "trigger": "iff", "contents": "\\Leftrightarrow"},
 		{ "trigger": "Leftrightarrow", "contents": "Longleftrightarrow"},
-		{ "trigger": "Longleftrightarrow", "contents": "Leftrightarrow"},
+		{ "trigger": "Longleftrightarrow", "contents": "Leftrightarrow"}, 
                 { "trigger": "up", "contents": "\\uparrow"},
 		{ "trigger": "do", "contents": "\\downarrow"},
 
@@ -111,13 +111,11 @@
                 { "trigger": "cal", "contents": "\\mathcal"},
                 { "trigger": "mathcal", "contents": "mathcal{$1}$0"},
 
-                { "trigger": "lrp", "contents": "\\left( $1 \\right) $0"},
-                { "trigger": "lrb", "contents": "\\left[ $1 \\right] $0"},
-                { "trigger": "lra", "contents": "\\left| $1 \\right| $0"},
+                { "trigger": "lp", "contents": "\\left( $1 \\right) $0"},
+                { "trigger": "lb", "contents": "\\left[ $1 \\right] $0"},
                 { "trigger": "lbr", "contents": "\\left\\\\{ $0 \\right\\\\}"},
-                { "trigger": "fra", "contents": "\\frac"},
-                { "trigger": "fr", "contents": "\\frac{$1}{$2}$0"},
-                { "trigger": "dfr", "contents": "\\dfrac{$1}{$2}$0"},
+                { "trigger": "fr", "contents": "\\frac"},
+                { "trigger": "fra", "contents": "\\frac{$1}{$2}$0"},
                 { "trigger": "stack", "contents": "\\stackrel{$1}{$2}$0"},
 
                 { "trigger": "sp", "contents": "\\begin{split}\n$0\n\\end{split}\n"}

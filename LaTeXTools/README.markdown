@@ -1,4 +1,4 @@
-# LaTeX Plugin for Sublime Text 2 and 3
+LaTeX Plugin for Sublime Text 2 and 3
 =====================================
 
 by Marciano Siniscalchi
@@ -21,7 +21,7 @@ Additional contributors (*thank you thank you thank you*): first of all, Wallace
 
 
 
-## Introduction
+Introduction
 ------------
 This plugin provides several features that simplify working with LaTeX files:
 
@@ -33,7 +33,7 @@ This plugin provides several features that simplify working with LaTeX files:
 * Additional snippets and commands are also provided
 * The build command is fully customizable. In the near future, so will be the PDF previewer.
 
-## Requirements and Setup
+Requirements and Setup
 ----------------------
 
 First, you need to be running Sublime Text 2 or 3 (ST2 and ST3 henceforth, or simply ST to refer to either ST2 or ST3). For ST3, I have only tested build 3047 and will of course test subsequent builds.
@@ -105,7 +105,7 @@ Only the Evince PDF viewer is supported; it's installed by default on Ubuntu or,
 Note: I already have patches to support Okular. Indeed, Okular is very easy to support, as it provides a sane command-line interface; Evince insists on using DBus, which requires considerable gyrations (luckily, it was relatively easy to adapt solutions already existing for other editors to ST). What is harder is supporting *both* Evince and Okular. This would need a revamp of the building-related facilites of the plugin, basically supporting user settings to select a particular viewer. But the incentive to add such support is very low as far as other platforms are concerned: only SumatraPDF supports forward/inverse search on Windows, and Skim is the easiest-to-control and most powerful/complete PDF viewer on OS X that does. Bottom line: multiple viewer support is probably not coming in the near future. Sorry!
 
 
-## Keybindings
+Keybindings
 -----------
 
 Keybindings have been chosen to make them easier to remember, and also to minimize clashes with existing (and standard) ST bindings. I am taking advantage of the fact that ST supports key combinations, i.e. sequences of two (or more) keys. The basic principle is simple:
@@ -123,7 +123,7 @@ Most plugin facilities are invoked using sequences of 2 keys or key combinations
 Henceforth, I will write `C-` to mean `Ctrl-` for Linux or Windows, and `Cmd-` for OS X. You know your platform, so you know what you should use. In a few places, to avoid ambiguities, I will spell out which key I mean.
 
 
-## Compiling LaTeX files
+Compiling LaTeX files
 ---------------------
 
 **Keybinding:** `C-b` (standard ST keybinding)
