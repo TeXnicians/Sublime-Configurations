@@ -1,10 +1,9 @@
 {
 	"auto_complete": true,
-	// "auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
-	"auto_complete_selector": "source - text",
+	"auto_complete_selector": "source, text",
 	"auto_match_enabled": true,
-	// "auto_complete_selector": "-",
 	"caret_style": "solid",
+	"theme": "Flatron.sublime-theme",
 	"color_scheme": "Packages/TomorrowNight-Themes/Tomorrow-Night.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
