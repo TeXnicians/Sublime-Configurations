@@ -166,6 +166,22 @@
         "attributes": ["transient"],
         "font.italic": false
     },
+    // added
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["file_medium_dark"]}],
+        "attributes": ["dirty"],
+        "settings": ["highlight_modified_tabs"],
+        "fg": [225,255,255]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["file_dark"]}],
+        "attributes": ["dirty"],
+        "settings": ["highlight_modified_tabs"],
+        "fg": [102, 45, 145]
+    },
+    // end added
 
     // Tab Labels font size
     {
